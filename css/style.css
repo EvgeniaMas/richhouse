@@ -719,7 +719,7 @@ button::-moz-focus-inner,
 
 .footer {
 	background-color: #000;
-    padding: 75px 0 54px;
+    
     min-height: 127px;
     text-align: left;
     color: #fff;
@@ -974,36 +974,6 @@ form#feedback-form {
 }
 
 
-
-
-.make_order__title {
-  color: #000;
-  text-align: left;
-  padding-top: 40px;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 30px;
-  
-}
-
-div.cart_content {
- padding-top: 20px!important;
-}
-
-.product_table_head {
-background-color: #fff;
-}
-
-#send {
-    margin-top: 30px;
-}
-
-
-
-.address {
-   	color: #fff;
-   	text-align: center;
-   }
-
 @media (max-width: 970px) {
   .footer_menu > li >a {
   	color: #fff;
@@ -1061,87 +1031,17 @@ background-color: #fff;
   	max-width: 200px!important;
   }
 
-  
-
-  
-  .ic1, 
-  .ici2 {
-  	margin: 20px;
-  	width: 30px;
-  	height: 30px;  	
-  }
+   
 
   .footer {
   	height: 100%;
   }
    
   }
-label {
-  font-size: 14px;
-  color: #fff;
-
-}
-
-@media (max-width: 500px) {
-.card_background {
-	margin:auto;
-	margin-left: -160px;
-
-
-}
-
-.goods_parts__icon {
-	max-height: 52px;
-}
-
-.header-social {
-    margin-top: 190px;
-    width: 320px;
-    
-}
-
-.logo {
-	max-width: 130px;
-}
-
-.goods_parts__title {
-	font-size: 20px;
-	margin-top: 18px;
-	margin-bottom: 18px;
-
-}
-p.info {
-	padding: 40px 30px;
-}
-section {
-	padding-left: 10px;
-}
 
 
 
-}
 
-@media screen and (min-width: 991px) and (max-width: 1200px) { 
-   
-
-.products_in_cart {
- display: block;
- max-width: 100%;
- margin-right: 0;
-text-align: center;
-
-}
-
-span.less_goods2,
-span.more_goods2{
-	
-	display: block;
-	width: 100%;
-	text-align: center;
-	
-
-}
-}
 
 
 // @media (max-width: 992px) { 
@@ -1530,3 +1430,74 @@ button.header_backcall:focus {
 	position: relative;
 	
 }
+
+.footer__logo {
+	color: #f49231;
+	font-family: "SFUIDisplay-Light";
+	text-transform: uppercase;
+	font-size: 2rem;
+	padding-top: 32px;
+	padding-bottom: 10px;
+}
+
+.footer__logotext {
+	color: #f49231;
+	padding-bottom: 10px;
+	font-family: "SFUIDisplay-Ultra";
+	font-size: 1.5rem;
+}
+
+.footer__info {
+	color: #eae9e9;
+	font-size: 1rem;
+}
+
+.footer__phone {
+	color: #f49231;
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	padding-top: 32px;
+	padding-bottom: 10px;
+	text-align: right;
+}
+
+.popup__close {
+	color: #000!important;
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+
+.popup__order {
+	text-align: left;
+	font-size: 1.6rem;
+	padding-top: 20px;
+
+}
+
+.popup__input {
+	width: 95%;
+	padding: 20px;
+	border: 2px solid #898989;
+	margin-bottom: 30px;
+}
+
+.popup__backcall {
+	width: 95%;
+	padding: 20px;
+	background-color: #898989;
+	color: #fffefe;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.popup__backcall:hover {
+	background-color: #5b5959;
+	color: #fffefe
+}
+
+.popup__info {
+	text-align: left;
+	font-size: 1rem;
+}
+
