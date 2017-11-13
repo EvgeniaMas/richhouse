@@ -16,70 +16,13 @@
     display: block;
     height: 800px !important;
 }
-
-
 </style>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
 </head>
 <body>
 <div class="wrapper">
-
-<div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
-    <div class="header container-fluid">
-	   <div class="container">
-		  <div class="head">
-            <div class="col-lg-3">
-    <!-- NAV BAR -->
-          <nav class="navbar navbar-inverse">
-            <div class="container">
-              <!-- LOGO -->
-                           
-              <!-- MOBILE MENU -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-
-
-                </button>
-                <p class="menu">МЕНЮ</p>
-
-                
-              </div>
-
-              <!-- DESKTOP MENU -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav ">
-                  <li><a class="nav-link navbar__links" href="#fish">Rich house3</a></li>
-                  <li> <a class="nav-link navbar__links" href="#sea_delicacy">О компании</a></li>
-                  <li><a class="nav-link navbar__links" href="#deer_products">Контакты</a></li>                  
-                  <!-- <li><a class="nav-link navbar__links" href="contacts.html">Контакты</a></li> -->
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>     
-	        <div class="col-lg-9">
-	          <p class="first_screen__phone">+7(988)187-52-72 <span><button class ="header_backcall" onclick="PopUpShow()">Обратная связь</button></span> </p>
-	         </div>
-		</div>
-	</div>
-</div>
-
-  
-	
-
-	<div class="header_description ">
-    <p class="logo_title line">Rich House </p>
-    <p class="logo_desc">Новый уровень жизни </p>
-	<h1 class="main_activity">Новый уровень жизни в Адлере</h1>
-  <button class ="header_backcall2" onclick="PopUpShow()">Условия приобретения</button>
-	</div>
-   
-
-
+   <div id="myCarousel" class="header carousel slide" data-interval="5000" data-ride="carousel">
   <!-- Индикаторы для карусели -->
   <!-- <ol class="carousel-indicators">   
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>    
@@ -110,23 +53,70 @@
     </div>
      <div class="item">          
         <img class="item_photo" src="img/slide6.jpg" alt="Фото Адлера">     
-    </div>
+    </div>  
     
-    
-  </div>
-  <!-- Навигация для карусели -->
+  </div> <!-- carousel__inner -->
+  
+</div><!-- Конец карусели -->
+
+ <div class="header_description container-fluid">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="col-md-3 col-sm-3">
+    <!-- NAV BAR -->
+          <nav class="navbar navbar-inverse">
+           
+              <!-- LOGO -->
+                           
+              <!-- MOBILE MENU -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+
+
+                </button>
+                <p class="menu">МЕНЮ</p>
+
+                
+              </div>
+
+              <!-- DESKTOP MENU -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav ">
+                  <li><a class="nav-link navbar__links" href="#fish">Rich house3</a></li>
+                  <li> <a class="nav-link navbar__links" href="#sea_delicacy">О компании</a></li>
+                  <li><a class="nav-link navbar__links" href="#deer_products">Контакты</a></li>                  
+                  <!-- <li><a class="nav-link navbar__links" href="contacts.html">Контакты</a></li> -->
+                </ul>
+              </div>
+           
+          </nav>
+        </div>  <!-- col-3 navbar-->    
+          <div class="col-sm-9 col-md-9">
+            <p class="header__phone">+7(988) 187-52-72 <span><button class ="header_backcall" onclick="PopUpShow()">Обратная связь</button></span> </p>
+           </div>
+     </div>
+</div>
+
+  <p class="logo_title line">Rich House </p>
+  <p class="logo_desc">Новый уровень жизни </p>
+  <h1 class="main_activity">Новый уровень жизни <br>в Адлере</h1>
+  <button class ="header_backcall2" onclick="PopUpShow()">Условия приобретения</button>
+    <!-- Навигация для карусели -->
   <!-- Кнопка, осуществляющая переход на предыдущий слайд с помощью атрибута data-slide="prev" -->
   <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
+    <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
+   <span class="arrows__left"></span>
   </a>
   <!-- Кнопка, осуществляющая переход на следующий слайд с помощью атрибута data-slide="next" -->
   <a class="carousel-control right" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
+     <span class="arrows__right"></span>
   </a>
-</div><!-- Конец первого экрана -->
 
-
-
+  
+  </div>
 
 
 <div id="blindLayer" class="container-fluid"></div>
@@ -141,7 +131,7 @@
         <p class="description__text"><span class="checkmark">&#10004;</span>Оптимальное сочетание расположения, высоких стандартов архитектуры и доступных цен.</p>
         <p class="description__text"><span class="checkmark">&#10004;</span>Мы — Строительная компания Rich — по-новому подходим к строительству, клиентскому сервису и ценам: практично, открыто и с перфекционизмом. </p>
         <p class="description__text"><span class="checkmark">&#10004;</span>Создавая этот проект, мы предлагаем Вам новый уровень жизни.</p>
-        <p class="description__text"><span class="checkmark">&#10004;</span>Разрешение на строительство многоквартирного дома <span class="bold_text">RU-23-309-6144-2017</span> от 11 августа 2017</p>
+        <p class="description__text"><span class="checkmark">&#10004;</span>Разрешение на строительство многоквартирного дома <span class="bold_text">RU-23-309-6144-2017</span> от 11 августа 2017.</p>
       </div>
 
       <div class="col-md-6">
@@ -205,10 +195,10 @@
 
       <div class="col-md-6">
        <h3 class="description__title">Самая лучшая цена в Адлере* </h3>
-        <p class="description__text"><span class="checkmark">&#10004;</span>1-комнатные <br><span class="description__larger_text"></span> от 4,5 млн. руб</p>
-        <p class="description__text"><span class="checkmark">&#10004;</span>2-комнатные <br><span class="description__larger_text"></span> от 6,7 млн. руб</p>
-        <p class="description__text"><span class="checkmark">&#10004;</span>3-комнатные <br><span class="description__larger_text"></span> от 9,8 млн. руб</p>
-        <button onclick="PopUpShow()">Условия приобретения</button>
+        <p class="description__text"><span class="checkmark">&#10004;</span>1-комнатные <br><span class="description__larger_text">от 4,5 млн. руб</span> </p>
+        <p class="description__text"><span class="checkmark">&#10004;</span>2-комнатные <br><span class="description__larger_text">от 6,7 млн. руб</span> </p>
+        <p class="description__text"><span class="checkmark">&#10004;</span>3-комнатные <br><span class="description__larger_text">от 9,8 млн. руб</span> </p>
+        <button class="description__backcall" onclick="PopUpShow()">Условия приобретения</button>
        
       </div>
     </div>     
@@ -234,8 +224,8 @@
       <p class="contacts__part">Офис продаж</p>
       <p class="contacts__info">Адлер, ул. Старонасыпная 22 оф. 611</p>
 
-      <div class="col-md-12">
-        <div class="col-md-6">
+      <div class="col-md-12 contacts1">
+        <div class="col-md-6 contacts2">
       <p class="contacts__part">Телефон</p>
       <p class="contacts__info">+7 (988)187 52 72 </p>
     </div>
@@ -247,16 +237,17 @@
 
     </div>
     <div class="col-md-6">
-
-      <input type="number" name="number" placeholder="Введите Ваш номер">
-      <button >Заказать обратный звонок</button>
+      <form>
+      <input class="contacts__input" type="number" name="number" placeholder="Введите Ваш номер">
+      <button class="contacts__backcall">Заказать обратный звонок</button>
+    </form>
     </div>
   </div>
 </div>
 
 
 <section id=map>
-  <button onclick="PopUpShow()" class="btn footer_backcall">Обратная связь</button>    
+  <button onclick="PopUpShow()" class="map_backcall">Обратная связь</button>    
 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8628e38813032b3111170b647f2eb4e53ede22f16ac51798d5b93fceb7b5c5f6&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
 </section>
 
@@ -280,18 +271,28 @@
 <!-- Попап заказа обратного звонка  и прайс-листа-->
  <div id="popup1" class= "popup" >
     <a href="javascript:PopUpHide()">
-    <p><span>Закрыть</span>Х</p> </a>
+    <p class="popup__close"><span>Закрыть</span>Х</p> </a>
     <br>
-    <p>Заказать обратный звонок</p>
+    <p class="popup__order">Заказать обратный звонок</p>
     <form id="back_call_popup" method="POST" action="send.php">      
-      <input id="phonenumber" type="number" placeholder="Введите Ваш номер телефона" required="required"/>
-      <button>Заказать обратный звонок</button>
-      <p>После того, как вы оставите заявку, наш менеджер свяжется с вами.</p>
+      <input class="popup__input" id="phonenumber" type="number" placeholder="Введите Ваш номер телефона" required="required"/>
+      <button class="popup__backcall">Заказать обратный звонок</button>
+      <p class="popup__info">После того, как вы оставите заявку, наш менеджер свяжется с вами.</p>
       
     </form>
 </div>
 
+<!-- <div class="col-sm-12 lines">
+  <div class="col-sm-5 lines__part">
+  </div>
+  <div class="col-sm-2 lines__text">
+    <p>Rich House</p>
+  </div>
+  <div class="col-sm-5 lines__part">
+  </div> -->
 
+
+</div>
 <!-- Подключение jqery --> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>     
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
