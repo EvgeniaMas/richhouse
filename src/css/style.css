@@ -1046,7 +1046,7 @@ input::-moz-placeholder {color:#000!important;}
 
 .description, 
 .company {
-	padding: 20px;
+	padding: 7px;
 	
 }
 
@@ -1198,7 +1198,7 @@ clear: both;
 
     h1.main_activity {
     	font-size: 1.2rem!important;
-    	width: 70vw;
+    	max-width: 150px;
     	margin:auto;
       padding-top: 80px;
     }
