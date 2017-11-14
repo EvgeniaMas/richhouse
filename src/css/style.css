@@ -1044,6 +1044,12 @@ input::-moz-placeholder {color:#000!important;}
     height: 660px!important;
 }
 
+
+.contacts__info {
+	font-size: 1.2rem;
+	
+}
+
 .description, 
 .company {
 	padding: 7px;
@@ -1130,7 +1136,7 @@ clear: both;
 	
 }
 .description__picture {
-	
+	width: 110%;
 	margin:auto;
 }
 
