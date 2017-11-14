@@ -515,6 +515,7 @@ button::-moz-focus-inner,
 
 .footer {
 	background-color: #000;
+  padding-bottom: 20px;
     
     min-height: 127px;
     text-align: left;
@@ -967,9 +968,14 @@ background-color: transparent!important;
 
 
 .checkmark {
-	font-size: 30px;
-	color: #ff9900;
-	margin-left: 5px;
+	width: 35px;
+  height: 35px;
+	display: inline-block;
+  background-image: url('../img/check.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+	margin-right: 10px;
 
 }
 
@@ -1000,7 +1006,7 @@ background-color: transparent!important;
 	font-family: "SFUIDisplay-Light";
   font-size: 1.3rem;  
   color: rgb(51, 51, 51);
-  line-height: 1.3;
+  line-height: 1.3а;
   margin-bottom: 15px;
   text-align: justify;
 
