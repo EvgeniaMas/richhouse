@@ -949,8 +949,10 @@ input::-moz-placeholder {color:#000!important;}
 
 .footer__info {
 	color: #eae9e9;
-	font-size: 1rem;
+	font-size: 0.7rem;
 }
+
+
 
 .footer__phone {
 	color: #f49231;
@@ -1066,10 +1068,6 @@ input::-moz-placeholder {color:#000!important;}
 	font-size: 1.2rem;
 }
 
-.footer__info {
-	
-	font-size: 0.9rem;
-}
 
 .map_backcall {
 	
