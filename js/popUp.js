@@ -16,10 +16,19 @@
         $("#blindLayer").css("display","none");
     }
 
-function PopUpTwoHide() {
-    $('#popup2').hide();
-    $("#blindLayer").css("display","none");
-}
+    //Функция отображения PopUp
+    function PopUpShow(){
+        $("#popup2").show();
+        $("#blindLayer").css("display","block");
+
+    }
+    //Функция скрытия PopUp1
+    function PopUpHide(){
+        $("#popup2").hide();
+        $("#blindLayer").css("display","none");
+    }
+
+
 
 
 

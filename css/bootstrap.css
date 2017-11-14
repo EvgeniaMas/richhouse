@@ -4240,7 +4240,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 .navbar-nav > li > a:hover {
   background-color: rgb(153, 0, 0)!important;
-  color: #fff;
+  color: #fff!important;
   text-align: center;
 }
 
